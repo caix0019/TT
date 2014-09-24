@@ -1,0 +1,90 @@
+﻿body
+{
+	text-align:center;
+	margin-top:3px;				/* 去掉网页顶部空白 */
+	font-size:16px;
+}
+
+#Banner
+{
+	height:8px;
+	background-color:FF0088;
+}
+
+#Main
+{
+	/* 实现水平居中 */
+	text-align:left;
+	width: 1300px;
+	margin:0px auto; 
+	padding:0px 0px 0px 0px;
+	border-style:none;	
+	font-size:16px;
+}
+
+#Content 
+{
+  position: relative;
+	margin:1px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	border-style:none;
+	text-align:center;
+	font-size:16px;
+	clear:left;	
+	width: 1300px;
+	height:600px;		
+}
+
+
+#backGroundCanvas
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:0;
+}
+
+#heatmapCanvas1
+{
+  width:1300px;
+  height:600px;
+}
+
+#heatmapCanvas2
+{
+  width:1300px;
+  height:600px;
+}
+
+.CanvasToHidden
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility:hidden;
+  z-index:0;
+}
+
+.CanvasToShow
+{
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility:visible;
+  z-index:1;
+}
+
+.TopCanvas
+{
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility:visible;
+  z-index:2;
+}
+
+.ImageHidden
+{
+	visibility: hidden;
+}
+

@@ -1,0 +1,15 @@
+﻿#Header
+{
+	height:100px;	
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	margin-bottom:0px;
+	margin-top:0px;	
+}
+
+#MyTitle
+{
+	text-align:right;	
+	font-size:25px;
+	padding-top:50px;
+}

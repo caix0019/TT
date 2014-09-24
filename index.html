@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>NTU Location System</title>
+<link href="style/Global.css" rel="stylesheet" type="text/css" />
+<link href="style/Header.css" rel="stylesheet" type="text/css" />
+<link href="style/Footer.css" rel="stylesheet" type="text/css" />
+<script src="js/init.js"  language="javascript" ></script>
+<script src="js/drawbackground.js"  language="javascript" ></script>
+<script src="js/heatmap.js"  language="javascript" ></script>
+</head>
+<body onLoad="init()">
+	<div id="Main">
+		<div id="Header">
+			<div id="MyTitle"><B>Heatmap of Occupancy Distribution</B></div>
+		</div>
+		<div id="Banner">
+		</div>
+		<div id="Content">
+				<canvas id="backGroundCanvas" width="1300" height="600"></canvas>
+				<div id="heatmapCanvas1" class="TopCanvas"></div>
+				<div id="heatmapCanvas2" class="CanvasToHidden"></div>
+				<img id="backgroundImage" class="ImageHidden" src="images/lab.jpg" />
+		</div>
+		<div id="Footer">
+			<p id="CopyRight">
+			<a href="http://eeeweba.ntu.edu.sg/sensornetwork/Index.html">Internet of Things Laboratory, School of Electrical and Electronic Engineering, Nanyang Technological University</a> 2013<br/>
+			Location: S1-B4b-06<br/>
+			Tel: 6790 4242<br/>
+			</p>
+		</div>
+  </div>
+</body>
+</html>
